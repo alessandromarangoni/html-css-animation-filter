@@ -48,3 +48,13 @@
     transform: scale(1.5);
     transition: 2s;
 }
+
+.ex-10-icon{
+    animation: gira 1s infinite linear;
+}
+
+@keyframes gira{
+    0%{
+        transform: rotate(360deg);
+    }
+}
