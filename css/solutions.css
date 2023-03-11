@@ -18,3 +18,11 @@
     opacity: 0;
     transition: 2s;
 }
+
+.ex-5-square:hover{
+    transform: scale(2);
+    transition: 1s;
+}
+.ex-5-square:active{
+    transform: scale(0.5);
+}
