@@ -92,3 +92,82 @@
         right: calc(200px - 65px)
     }
 }
+
+.ex-13-button:hover .ex-13-top-white{
+    animation: roteateTop 2s linear;
+}
+
+@keyframes roteateTop{
+    0% {
+        top:-10px;
+        left:10%
+    }
+
+    20%{
+        left:150px;
+        top:-10px;
+    }
+    30%{
+        left: 150px;
+        top:60px;
+    }
+    40%{
+        left:-10px;
+        top:60px;
+    }
+
+    60%{
+        left:-10px;
+
+    }
+    80% {
+        left:-10px;
+    }
+
+    90%{
+        left: -10px;
+        top:-10px
+    }
+
+    100%{
+        
+    }
+}
+.ex-13-button:hover .ex-13-bottom-white{
+    animation: roteateBottom 2s linear;
+    background-color: aqua;
+}
+@keyframes roteateBottom{
+
+    0%{
+        right:20%;
+        bottom:-10px;
+    }
+
+    20%{
+        transition-duration: 1s;
+        right:150px
+    }
+
+    40%{
+        transition-duration: 1s;
+        right:150px;
+        top:0;
+    }
+    
+    40%{
+        top:-10px;
+    }
+
+    60%{
+        transition-duration: 1s;
+        top:-10px;
+        right:-50px;
+    }
+
+    80%{
+        right:-50px;
+        bottom:-10px;
+    }
+
+}
