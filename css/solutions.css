@@ -8,3 +8,10 @@
     transition: 2s;
     Transition-timing-function:ease;
 }
+
+.ex-3-square:hover{
+    border-radius: 100%;
+    transition:1s;
+}
+
+
