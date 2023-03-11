@@ -60,7 +60,7 @@
 }
 
 .ex-11-icon:hover{
-    animation: gira75 ease-in;
+    animation: gira75 1s ease-in;
 }
 
 @keyframes gira75{
@@ -70,5 +70,25 @@
 
     75%{
         transform: rotate(270deg);
+    }
+}
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: topRight 2s linear 
+}
+
+@keyframes topRight{
+    50%{
+        left: calc(200px - 65px)
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: bottomLeft 2s linear 
+}
+
+@keyframes bottomLeft{
+    50%{
+        right: calc(200px - 65px)
     }
 }
