@@ -14,4 +14,7 @@
     transition:1s;
 }
 
-
+.ex-4-square:hover{
+    opacity: 0;
+    transition: 2s;
+}
